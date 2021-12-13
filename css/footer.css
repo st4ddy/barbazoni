@@ -1,0 +1,89 @@
+.footer {
+    margin-top: 220px;
+}
+
+.footer-inf {
+    width: 95%;
+    margin: 0 auto;
+    border-top: 1px solid #000000;
+    font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 50px;
+display: block;
+color: #000000;
+}
+
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    .footer-inf {
+        font-size: 23px;
+line-height: 31px;
+    }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    .footer-inf {
+        font-size: 20px;
+line-height: 31px;
+    }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+    .footer-inf {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
+
+/* Iphone 5 */
+@media (max-width: 320px) {
+    .footer-inf {
+        font-size: 10px;
+        line-height: 16px;
+    }
+}
+
+/* @media (min-width: 992px) and (max-width: 1199px) {
+    .footer-inf {
+        width: 960px;
+    font-size: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .footer-inf {
+        width: 90%;
+    font-size: 15px;
+    }
+}
+
+@media (max-width: 780px) {
+    .footer-inf {
+        width: 100%;
+    }
+}
+
+@media (max-width: 868px) {
+    .contacts-map {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {        
+    .footer-inf {
+        width: 90%;
+    font-size: 12px;
+    }
+}                                                                                                     
+
+@media (max-width: 375px) {        
+    .footer-inf {
+        width: 90%;
+    font-size: 10px;
+    }
+}        */

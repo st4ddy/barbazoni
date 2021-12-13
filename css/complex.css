@@ -1,0 +1,164 @@
+.complex {
+    margin-top: 25px;
+}
+
+.complex-descriptions {
+    width: 100%;
+    height: 218px;
+    background: rgba(107, 183, 0, 0.05);
+}
+
+.complex-header {
+    font-family: "Open Sans", sans-serif;
+    font-size: 26px;
+    color: #6BB700;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.complex-title {
+    font-family: "Open Sans", sans-serif;
+    font-size: 23px;
+    color: black;
+    width: 906px;
+    height: 93px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 35px;
+}
+
+.complex-list { 
+margin-top: 90px;
+display: grid; 
+grid-template-columns: 450px 450px 450px;
+grid-template-rows: 330px 330px 330px;
+justify-content: center;
+    margin-top: 92px;
+}
+
+.complex-item {
+    width: 399px;
+    height: 285px;
+    position: relative;
+}
+
+.complex-item-title {
+position: absolute;
+bottom: 0px;
+}
+.complex-image-badge {
+   
+    width: 399px;
+    height: 45px;
+    text-align: center;
+    background:  rgba(196, 196, 196, 0.7);
+    font-family: 'Open Sans', sans-serif;
+font-weight: 300;
+font-size: 19px;
+line-height: 41px;
+color: black;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+
+ /* Large desktops and laptops */
+@media (min-width: 1200px) and (max-width:1354px){
+.complex-list {
+    padding-left: 0px;
+    grid-template-columns: 450px 400px;
+    grid-template-rows: 330px 330px 330px 330px;
+}
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .complex-list {
+        padding-left: 0px;
+        grid-template-columns: 450px 400px;
+        grid-template-rows: 330px 330px 330px 330px;
+    }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+.complex-descriptions {
+    height: 100%;
+}
+.complex-title {
+    width: 95%;
+    font-size: 19px;
+    height: 110px;
+}
+
+.complex-list {
+    padding-left: 0px;
+    grid-template-columns: 370px 400px;
+    grid-template-rows: 285px 285px 285px 285px;
+}
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    .complex-descriptions {
+        height: 100%;
+    }
+    .complex-title {
+        width: 95%;
+        font-size: 19px;
+        height: 110px;
+    }
+    
+    .complex-list {
+        padding-left: 0px;
+        grid-template-columns: 399px;
+        grid-template-rows: 285px;
+        grid-row-gap: 30px;
+    }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+    .complex-item {
+        width: 100%;
+        height: 229px;
+    }
+    .complex-item:first-child {
+        margin-top: 55px;
+    }
+    .w320 {
+        width: 320px;
+    }
+    .complex-descriptions {
+        padding-bottom: 20%;
+    }
+    
+    .complex-image-badge {
+        width: 320px;
+        top: 184px;
+        font-size: 16px;
+    }
+    .complex-list {
+        grid-template-columns: 320px;
+        margin-top: 0;
+    }
+}
+
+/* Iphone 5 */
+@media (max-width: 320px) {
+.complex-item {
+    width: 320px;
+    height: 100%;
+}
+.w320 {
+    width: 320px;
+}
+
+.complex-image-badge {
+    width: 320px;
+    top: 184px;
+}
+.complex-list {
+    grid-template-columns: 320px;
+}
+}

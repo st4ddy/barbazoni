@@ -1,0 +1,58 @@
+.contacts {
+    margin-top: 66px;
+
+}
+
+.contact-one {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+@media (max-width: 480px) {
+    .contact-one {
+        display: grid;
+    }
+}
+
+.contacts-adress {
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 41px;
+text-align: center;
+color: #000000;
+margin-bottom: 29px;
+}
+
+.contacts-map {
+    text-align: center;
+}
+
+.mini-map {
+    margin-top: 20px;
+    text-align: center;
+    display: none;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+.mini-map {
+    display: block;
+}}
+@media (max-width: 767px) {
+    .mini-map {
+        display: block;
+    }
+    
+}
+
+@media (max-width: 480px) {
+    .map-size {
+        width: 320px;
+    }
+}
+

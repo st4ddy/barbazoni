@@ -1,0 +1,266 @@
+.service-header {
+    font-family: "Open Sans", sans-serif;
+    font-size: 36px;
+    color: black;
+    margin-top: 78px;
+    font-weight: normal;
+    margin-left: 370px;
+}
+
+.service-header-free {
+    text-align: left;
+}
+
+.service {
+    display: flex;
+}
+
+.service-block {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+.service-description {
+    font-family: "Open Sans", sans-serif;
+    font-size: 36px;
+    color: #6BB700;
+    font-weight: bold;
+    margin-left: 370px;
+}
+
+.service-icon {
+    width: 94px;
+    height: 91px;
+    background: #fff;
+    border: 1px solid #000000;
+    border-radius: 50%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 20px;
+}
+
+.service-zhuk {
+    display: flex;
+    margin: 26px 28px 25px 28px
+}
+
+.service-option {
+    width: 376px;
+    height: 497px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: 1px black solid;
+    margin-top: 91px;
+    justify-content: center;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+
+.option-header {
+    font-family: "Open Sans", sans-serif;
+    font-weight: normal;
+    font-size: 35px;
+    margin-top:50px;
+    margin-left: 24px;
+}
+
+.option-header-two {
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    margin-left: 24px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.option-text {
+    width: 328px;
+    height: 56%;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    margin-top: 16px;
+    margin-left: 24px;
+}
+
+.option-header-f {
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    margin-left: 24px;
+    text-decoration: none;
+color: #2897C9;;
+}
+
+.service-button {
+    width: 219px;
+    height: 53px;
+    border-radius: 50px;
+    background: #6BB700;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    color: #FFFFFF;  
+    margin: 0 auto;
+display: block; 
+    border: none;
+}
+
+
+
+.transition {
+    cursor: pointer;
+}
+
+.transition:hover {
+    background: #6BB700;
+    transition: 1s;
+}
+
+
+
+.service-option:hover {
+    color: #fff;
+}
+
+
+
+
+
+
+@media (max-width: 750px) {
+    .service-option {
+        margin-left: 0px;
+}
+   .service-header {
+       margin: 0 auto;
+       margin-top: 20px;
+       text-align: center;
+   }
+   .service-description {
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+   }
+
+}
+@media (max-width: 356px) {
+.service-option {
+    width: 96%;
+}
+.option-text {
+    width: 90%
+}
+}
+
+
+
+/* @media (min-width: 1200px) and (max-width:1354px){
+    .service-option {
+        margin-left: 10px;
+    }
+    .service-icon {
+        margin-left: 40px;
+    }
+    .service-icon-two {
+        margin-left: 470px;
+    }
+    .service-icon-three {
+        margin-left: 900px;
+    }
+    .service-header {
+        margin-left: 600px;
+    }
+    .service-description {
+        margin-left: 600px;
+    }
+    .service-button {
+        margin-left: 600px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .service-option {
+        margin-left: 270px;
+    }
+    .service-option-two {
+        margin-left: 270px;
+    }
+    .service-icon {
+    }
+    .service-icon-two {
+        margin-left: 400px;
+    }
+    .service-icon-three {
+        margin-left: 400px;
+    }
+    
+    .service-description {
+        /* margin-left: 20px; */
+    /* }
+    .service-button {
+        margin-left: 350px;
+    }
+    .service-block {
+        display:inline-block;
+    }
+
+}
+
+@media (max-width: 780px) {
+    .service-option {
+        margin-left: 20px;
+    }
+    .service-option-two {
+        margin-left: 0 auto;
+    }
+    .service-icon {
+        margin-left: 150px;
+    }
+    .service-icon-two {
+        margin-left: 150px;
+    }
+    .service-icon-three {
+        margin-left: 150px;
+    }
+    .service-header {
+        margin-left: 10px;
+    }
+    .service-description {
+        margin-left: 10px;
+    }
+    .service-button {
+        margin-left: 200px;
+        margin-right: 100px;
+    }
+    .service-block {
+        display:inline-block;
+    }
+
+}                                                                                                                                                                                                                                                 
+
+@media (max-width:400px) {
+    .service-option {
+        width: 350px;
+        margin-left: 1px;
+    }
+    .service-option-two {
+        margin-left: 10px;
+        width: 350px;
+    }
+    .service-icon {
+        margin-left: 150px;
+    }
+    .service-icon-two {
+        margin-left: 150px;
+    }
+    .service-icon-three {
+        margin-left: 150px;
+    }
+    .service-option-two {
+        margin-left: 1px;
+    }
+    .service-button {
+        margin-left: 20px;
+    }
+}  */

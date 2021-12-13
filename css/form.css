@@ -1,0 +1,94 @@
+.service-from {
+    /* display: none; */
+    margin-top: 50px;
+}
+.service-wrapper {
+    width: 753px;
+margin: 0 auto;
+color: #636363;
+}
+
+.form-input {
+    width: 360px;
+height: 40px;
+font-size: 20px;
+margin-bottom: 30px;
+}
+.form_inputs {
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.form-input {
+    border: 1px solid #999;
+ margin-top: 3px;
+}
+
+.form-input:first-of-type {
+    margin-right: 30px;
+}
+
+.button_block {
+    display: flex;
+    justify-content: center;
+}
+
+input[type=submit] {
+    width: 165px;
+    height: 40px;
+    background: #6BB700;
+    color: white;
+border: none;
+}
+@media (min-width: 1200px) and (max-width:1354px){
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+.form-input {
+    width: 300px;
+}
+.service-wrapper {
+    width: 667px;
+    }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    .form-input {
+        width: 300px;
+    }
+    .service-wrapper {
+        width: 667px;
+        }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 675px) {
+.service-wrapper {
+    width: 45%;
+}
+.form_inputs {
+    display: block; }
+
+}
+@media (max-width: 480px) {
+    .service-wrapper {
+        width: 98%;
+    }
+}
+/* Iphone 5 */
+@media (max-width: 320px) {
+.service-wrapper {
+    width: 98%;
+}
+.form-input:first-of-type {
+    margin-right: 0;
+  }
+}

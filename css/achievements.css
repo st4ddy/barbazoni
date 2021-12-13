@@ -1,0 +1,192 @@
+.achievements {
+    margin-top: 100px;
+    background-image: url(../img/achiv/achiv-bg.png);
+    height: 309px;
+    position: relative;
+}
+
+.achievements::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.5);
+    z-index: 2;
+  }
+
+.our-achievements-slogan {
+    top: 67px;
+    position: relative;
+    /* margin-top: 67px; */
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;
+    color: #FFFFFF;
+    z-index: 3;
+}
+
+.our-achievements-main {
+    display: flex;
+    justify-content: center;
+}
+
+.our-achievements-items {
+    position: relative;
+    top: 86px;
+    margin-left: 83px;
+    display: flex;
+    z-index: 3;
+}
+
+.our-achievements-quality {
+ display: block;
+ text-align: center;
+}
+
+.our-achievements-contain {
+    width: 208px;
+    height: 181px;
+    border: 3px dashed white;
+    margin-right: 41px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 17px;
+    display: block;
+}
+
+.our-achievements-item {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+/* @media (min-width: 992px) and (max-width: 1199px) {
+    .our-achievements-slogan {
+        margin-left: 7px;    
+    }
+    .achievements {
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .achievements {
+        text-align: center;
+    }
+    .our-achievements-slogan {
+        top: 10px;
+        margin-left: 7px;    
+    }
+    .our-achievements-main {
+        display: inline-block;
+    } 
+    .our-achievements-items {
+        position: relative;
+        top: 50px;
+        margin-left: 7px;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 615px) {        
+    .achievements {
+        background: #6BB700;;
+        height: 750px;
+        position: relative;
+        display: block;
+    }
+    .our-achievements-items {
+        position: relative;
+        top: 10px;
+        display: block;
+    }
+    .our-achievements-contain {
+        margin-top: 10px;
+    }
+    .our-achievements-slogan {
+        top: 10px;
+        margin-left: 7px;    
+    }
+    .our-achievements-main {
+        display: block;
+        text-align: center;
+    } 
+}                                                                                                      */
+
+
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+.our-achievements-items {
+    margin-left: 0px;
+}
+.our-achievements-slogan {
+    margin-left: 10px;
+}
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    .our-achievements-main {
+        display: block;
+    }
+    .achievements {
+        text-align: center;
+    }
+    .our-achievements-slogan {
+        top: 10px;
+    }
+    .our-achievements-items {
+        top: 30px;
+    }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    .achievements {
+        background: #6BB700;;
+        height: 750px;
+        position: relative;
+        display: block;
+    }
+    .achievements::after {
+        z-index: -1;
+      }
+    .our-achievements-items {
+        position: relative;
+        top: 10px;
+        display: grid;
+        justify-content: center;
+        margin-left: 0px;
+    }
+    .our-achievements-contain {
+        margin: 0 auto;
+        margin-bottom: 24px;
+    }
+    .our-achievements-slogan {
+        top: 10px;  
+        margin-bottom: 30px;
+    }
+    .our-achievements-main {
+        display: block;
+        text-align: center;
+    } 
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+}
+
+/* Iphone 5 */
+@media (max-width: 320px) {
+
+}
