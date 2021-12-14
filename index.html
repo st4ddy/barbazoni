@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -22,8 +23,10 @@
                 <a href="tel: +380965083966" class="contact-number1">(096) – 508 – 39 -66</a>
                 <img class="dnone768" src="./img/phone.svg">
                 <a href="tel: +380982107896" class="contact-number1">(098) – 210 – 78 -96</a>
-                <a href="#"><img class="contact-phone" src="./img/telegram.svg"></a>
-               <a href="#"><img class="contact-phone" src="./img/viber.svg"></a>
+                <a href="tg://resolve?domain=barbazoni"><img class="contact-phone" src="./img/telegram.svg"></a>
+                <a href="viber://chat?number=%2B380965083966"><img class="contact-phone" src="./img/viber.svg"></a>
+
+            
             </nav>
             <nav class="navbar">
                 <nav class="navbar-menu">
@@ -44,7 +47,7 @@
                         <h2 class="header-text-main">BARBAZONI</h2>
                         <p class="">Надежная защита вашего дома и бизнеса от вредителей!</p>
                         <p class="w565 mt14">Являемся проверенным партнером, готовы справиться с проблемой любой сложности.</p>
-                        <button class="call-us"><a href="#">ПОЗВОНИТЬ</a></button>
+                        <button class="call-us"><a href="tel: +380965083966">ПОЗВОНИТЬ</a></button>
                     </div>
                     <!-- <img src="./img/slider/slide-one.png"> -->
                 </div>
@@ -53,7 +56,7 @@
                         <h2 class="header-text-main">BARBZONI</h2>
                         <p class="">Работаем 24\7</p>
                         <p class="w565 mt14">Выезд на объект, в любое удобное, для вас время.</p>
-                        <button class="call-us"><a href="#">ПОЗВОНИТЬ</a></button>
+                        <button class="call-us"><a href="tel: +380965083966">ПОЗВОНИТЬ</a></button>
                     </div>
                     <!-- <img src="./img/slider/slider-two.jpg"> -->
                 </div>
@@ -63,7 +66,7 @@
                         <p class="">Качество. Безопасность. Гарантия.</p>
                         <p class="w565 mt14">Мы  используем средства, безопасные для здоровья человека и домашних питомцев.
                             Гарантируем быстрое обслуживание клиента в наилучшем качестве.</p>
-                        <button class="call-us"><a href="#">ПОЗВОНИТЬ</a></button>
+                        <button class="call-us"><a href="tel: +380965083966">ПОЗВОНИТЬ</a></button>
                     </div>
                     <!-- <img src="./img/slider/slider-three.jpg"> -->
                 </div>
@@ -72,7 +75,7 @@
                         <h2 class="header-text-main">BARBAZONI</h2>
                         <p class=""></p>
                         <p class="w565 mt14">У нас лучшие специалисты, которые выполняют любые поставленные  задачи.</p>
-                        <button class="call-us"><a href="#">ПОЗВОНИТЬ</a></button>
+                        <button class="call-us"><a href="tel: +380965083966">ПОЗВОНИТЬ</a></button>
                     </div>
                     <!-- <img src="./img/slider/slider-four.jpg"> -->
                 </div>
@@ -97,7 +100,7 @@
                         осы, жуки и тд. После сотрудничества с нами вы навсегда забудете
                         о том что вам докучали какие либо насекомые. Мы всегда рады новым
                         клиентам, свяжитесь с нами прямо сейчас.</p>
-                        <a class="option-header-f" href="#">ознакомиться</a>
+                        
                 </div>
                 <div class="service-option transition">
                     <div class="service-icon">
@@ -106,7 +109,7 @@
                     <h1 class="option-header">ДЕРАТИЗАЦИЯ</h1>
                     <h2 class="option-header-two">защита от грызунов</h2>
                     <p class="option-text">Наша служба предлагает вам свои профессиональные услуги в таком направлении, как борьба с мышами и крысами, гарантируя стабильный и долговременный результат. Даже незначительное промедление повлечет за собой буквальное заполнение грызунами подвалов и чердаков.</p>
-                        <a class="option-header-f" href="#">ознакомиться</a>
+                       
                 </div>
                 <div class="service-option transition">
                     <div class="service-icon">
@@ -115,7 +118,7 @@
                     <h1 class="option-header">ДЕЗИНФЕКЦИЯ</h1>
                     <h2 class="option-header-two">защита от микроорганизмов</h2>
                     <p class="option-text">Наша служба предлагает лучшие профессиональные услуги по уничтожению микробов. Мы найдем индивидуальные решения для каждого объекта, гарантируя высокий и стабильный результат. Качественные услуги дезинфекции – залог истиной чистоты вашего дома.</p>
-                        <a class="option-header-f" href="#">ознакомиться</a>
+                       
                 </div>
             </div>
             <button class="service-button" id="form-show"><a>заказать услугу</a></button>
@@ -124,11 +127,12 @@
            
             <section class="service-from" id="form-section">
                 <div class="service-wrapper">
-                    <form action="#" name="newform" method="post">
+                    <form  action="https://formspree.io/f/xvolobrj"
+                    method="POST" name="newform" >
 <div class="form_inputs">
-    <p>Имя<input class="form-input" type="text"></p>
+    <p>Имя<input class="form-input" name="name" type="text"></p>
     
-    <p>Номер телефона<input class="form-input" type="text"></p>
+    <p>Номер телефона<input class="form-input" name="message" type="text"></p>
    
 </div>
 <div class="button_block">
